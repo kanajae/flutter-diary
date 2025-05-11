@@ -1,17 +1,26 @@
-# heungdiary
+# プロジェクト名
 
-A new Flutter project.
+Flutter + Firebase を使った 日記アプリです。
 
-## Getting Started
+## 🔧 使用技術
 
-This project is a starting point for a Flutter application.
+- Flutter 3.x
+- Firebase (Authentication, Firestore, etc.)
+- Dart
 
-A few resources to get you started if this is your first Flutter project:
+## 📱 主な機能
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- ユーザー登録 / ログイン
+- ○○の登録 / 編集 / 削除
+- リアルタイム同期（Firestore）
+- ダークモード対応（ある場合）
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# flutter-diary
+## 🔥 Firebase セットアップ（※クローン後の手順）
+
+1. Firebase プロジェクトを作成
+2. `flutterfire configure` を実行して `firebase_options.dart` を生成
+3. `flutter pub get` でパッケージをインストール
+4. `flutter run` でアプリを起動
+
+## 📁 ディレクトリ構成（任意）
+
